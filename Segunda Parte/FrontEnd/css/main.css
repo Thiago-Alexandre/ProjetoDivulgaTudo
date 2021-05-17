@@ -1,0 +1,57 @@
+html, body{
+	background-color: #ffffff;
+	height: 100vh;
+	margin: 0px;
+	padding: 0px;
+	color: #026ea7;
+	font-weight: bold;
+	font-family: URW Chancery L, cursive;
+}
+
+body{
+	display: flex;
+	flex-direction: column;
+}
+
+main{
+	flex: 1 0 auto;
+}
+
+section, .modal-header, .modal-footer{
+	border: 0px;
+}
+
+nav, section, footer, .modal-header, .modal-footer{
+	background-color: #f3f3f3;
+}
+
+footer{
+	flex-shrink: 0;
+}
+
+.botao{
+	background-color: #026ea7 !important;
+	color: #32b4de;
+}
+
+table, .modal-body{
+	background-color: #ffffff;
+}
+
+thead{
+	background-color: #026ea7;
+	color: #32b4de;
+}
+
+h1, h2, h3, h4, h5, label{
+	font-weight: bold;
+}
+
+.row{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+a{
+	cursor: pointer;
+}
